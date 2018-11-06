@@ -17,8 +17,10 @@
     "url": "https://github.com/gabriel-hahn/twitter-clone-js/issues"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
-    "mongoose": "^5.3.9"
+    "mongoose": "^5.3.9",
+    "socket.io": "^2.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.5"

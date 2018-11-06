@@ -7,6 +7,10 @@ module.exports = {
     },
     async store(req, res) {
         const tweet = await Tweet.create(req.body);
+
+        //io emit to all conected users
+        req.io.emit('tweet', tweet);
+
         return res.json(tweet);
     }
 };
