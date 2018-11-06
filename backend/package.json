@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Gabriel Hahn Schaeffer <gabriel_hahn@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gabriel-hahn/twitter-clone-js.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabriel-hahn/twitter-clone-js/issues"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
