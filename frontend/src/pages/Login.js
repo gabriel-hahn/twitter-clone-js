@@ -4,14 +4,13 @@ import twitterLogo from '../twitter.svg';
 import './Login.css';
 
 export default class Login extends Component {
-
     state = {
         username: '',
     };
 
     handleInputChange = e => {
         this.setState({ username: e.target.value });
-    }
+    };
 
     handleSubmit = e => {
         e.preventDefault();
@@ -22,7 +21,7 @@ export default class Login extends Component {
         localStorage.setItem('@twitter:username', username);
 
         this.props.history.push('/timeline');
-    }
+    };
 
     render() {
         return (
@@ -34,5 +33,5 @@ export default class Login extends Component {
                 </form>
             </div>
         );
-    }
+    };
 }
