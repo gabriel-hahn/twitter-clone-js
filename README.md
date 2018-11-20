@@ -1,6 +1,33 @@
 # Twitter Clone
 A Twitter clone project using ReactJS + React Native, NodeJS as API (RESTful) and MongoDB (Database)
 
+![Chat](examples/InitialLogin.gif)
+
+# Socket.io to real-time messages
+![Chat](examples/RealTimeMessage.gif)
+
+# Mobile app conects to the same API and share messages.
+![Chat](examples/Mobile.gif)
+
+# Getting Started
+
+Run mongoDB
+
+```sh
+$ mongod
+```
+To run backend and frontend, run the follow command in each folder
+
+```sh
+$ npm install && npm run start
+```
+
+To run mobile app, you can choose iOS or Android
+
+```sh
+$ react-native run-ios
+```
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
