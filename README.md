@@ -2,15 +2,17 @@
 A Twitter clone project using ReactJS + React Native, NodeJS as API (RESTful) and MongoDB (Database)
 
 <p align="center">
-  <img src="examples/InitialLogin.gif">
+  <img src="https://media.giphy.com/media/1hmYVpqTcQRCsXflCR/giphy.gif">
 </p>
 
 # Socket.io to real-time messages
-![Chat](examples/RealTimeMessage.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/2cehmMknuOOotZoVvB/giphy.gif">
+</p>
 
 # Mobile app conects to the same API and share messages.
 <p align="center">
-  <img src="examples/Mobile.gif">
+  <img src="https://media.giphy.com/media/Zv9CEs19hB50zBMPho/giphy.gif">
 </p>
 
 # Getting Started
